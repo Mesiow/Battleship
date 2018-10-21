@@ -14,7 +14,7 @@ Enemy::Enemy()
 
 	grabShipLocations();
 
-	//initBoard();
+	initBoard();
 }
 
 Enemy::~Enemy()
