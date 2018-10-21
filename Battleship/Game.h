@@ -9,6 +9,9 @@ class Game
 public:
 	Game();
 	~Game();
+	Game(const Game &other) = delete;
+	Game(Game &&other) = delete;
+	Game &operator=(const Game &other) = delete;
 
 public:
 	void run();
